@@ -1,1 +1,38 @@
 /*------hello world---------
+Example.java
+/*
+   Простая программа на Java.
+   Назовите этот файл Example.java.
+*/
+class Example {
+   public static void main(String[] args) {
+	System.out.println("Простая программа на языке Java .");
+   }
+}
+
+Example2.java
+class Example2 {
+   public static void main(String[] args) {
+	int num;
+	num = 100;
+	System.out.println("Значение num: "+num);
+	num = num * 2;
+	System.out.println("Значение num * 2: ");
+	System.out.println(num);
+	if(num < 100) System.out.println("Значение num меньше 100");
+   }
+
+}
+
+/*---page 74----*/
+IfSample.java
+
+class IfSample {
+   public static void main(String[] args) {
+	int x, y;
+	x = 10;
+	
+
+   }
+
+}
