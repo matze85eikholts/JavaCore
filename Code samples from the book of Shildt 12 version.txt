@@ -31,8 +31,54 @@ class IfSample {
    public static void main(String[] args) {
 	int x, y;
 	x = 10;
-	
-
+	y = 20;
+	if(x < y) System.out.println("Значение х меньше у");
+	x = x * 2;
+	if (x == y) System.out.println("x Equals y now");
+	x = x * 2;
+	if (x > y) System.out.println("Now x bigger than y");
+	if (x == y) System.out.println("You woun't see that");
    }
 
+}
+
+/*---- page 75-----*/ 
+
+class ForTest {
+   public static void main(String[] args) {
+	int x;
+	for(x = 0; x < 10; x = x + 1)
+   	   System.out.prntln("Значение х: " + х);
+   }
+}
+
+/*-- кодовый блок ----*/
+
+class BlockTest {
+   public static void main(String[] args) {
+	int x, y;
+	y = 20;
+	for(x = 0; x < 10; x++) {
+	   System.out.println("value of x = " + x);
+	   System.out.println("value of y = " + y);
+	   y = y - 2;
+ 	}
+  }
+}
+
+/*----------------------Chapter 3 - data types ---*/
+/*----Example-on the page 84-----*/
+class Light {
+   public static void main(String[] args) {
+	int lightspeed;
+	long days;
+	long distance;
+	lightspeed = 186000;
+	days = 1000;
+	seconds = days * 24 * 60 * 60; //getting seconds
+	distance = lightspeed * seconds;
+	System.out.println(days);
+	System.out.println();
+	System.out.println(distance);
+   }
 }
