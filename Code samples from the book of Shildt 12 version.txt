@@ -111,3 +111,54 @@ class CharDemo2 {
 	System.out.println("ch1 now is " +ch1);
    }
 }
+
+/*---example on the page 87 ------*/
+
+class BoolTest {
+   public static void main(String[] args) {
+   	boolean b;
+	b = false;
+	
+   }
+}
+
+
+class DynInit {
+   public static void main(String[] args) {
+	double a =3.0, b = 4.0;
+	double c = Math.sqrt(a * a + b * b);
+	System.out.println("Длина гипотинузы: "+ с);
+   }
+}
+
+
+
+
+
+
+
+
+/*----arrays -page 102 -----*
+class AutoArray {
+   public static void main(String[] args) {
+	int[] month_days = {31, 28, 31, 30, 31, 30,
+                            31, 31, 30, 31, 30, 31};
+	System.out.println(" April has " + month_days[3] + "days");
+   }
+}
+
+class Average {
+   public static void main(String[] args) {
+	double[] nums = {10.1, 11.2, 12.3, 13.4, 14.5};
+	double result = 0; int i;
+	for(i = 0; i < 5; i++)
+	   result = result + nums[i];
+	System.out.println("Среднее значение: " + result / 5);
+   }
+
+}
+
+/*----*/
+int[][] twoD = new int[4][5];
+
+/*--------examples till the page 245-----------------*/
